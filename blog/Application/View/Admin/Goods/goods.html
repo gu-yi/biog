@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{foreach $data as $v}
+{$v['id']}&nbsp;&nbsp;<a href="index.php?c=goods&a=delete&id={$v['id']}" >删除</a>
+<hr />
+{/foreach}
+</body>
+</html>
